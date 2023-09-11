@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+    background-color:hsl(30, 38%, 92%);
+    min-height: 100vh;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: 15px;
+    width: 700px;
+    height: 450px;
+    padding: auto;
+    background-color: hsl(0, 0%, 100%);
+    display:flex;
+}
+
+img{
+    width: 350px;
+    height: 450px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.monfont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.frafont{
+    font-family: 'Fraunces', serif;
+}
+
+.rightsidecard{
+    padding: 20px;
+}
+
+.kclass{
+    display: flex;
+}
+
+.dclass{
+       color: hsl(158, 36%, 37%);
+       margin-left: 10px;
+       
+}
+
+.lineclass{
+    text-decoration: line-through;
+    width: 70px;
+    margin-left: 20px;
+    padding-top: 10px;
+    color: hsla(212, 21%, 14%, .5);
+    font-weight: normal;
+    margin-left: 40px;
+
+}
+
+button{
+    font-weight: bold;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    width: 280px;
+    height: 50px;
+    border-color: hsl(228, 12%, 48%);
+    border-radius: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+h2{
+    letter-spacing: 0.4em;
+    color: hsla(212, 21%, 14%, .5);
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: small;
+    margin: 20px 0px 0px 10px;
+}
+
+.headerpad{
+    margin-left: 10px;
+    margin-right: 70px;
+}
+
+.ppad{
+    margin: 20px 40px 0px 10px;
+    color: hsla(212, 21%, 14%, .5);
+    
+}
+
+
